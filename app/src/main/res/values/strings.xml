@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Bahria Intra Bus Driver</string>
+    <string name="welcome_back">Welcome Back,</string>
+    <string name="continue_login">Sign In to continue</string>
+    <string name="continue_signup">Sign Up to continue</string>
+    <string name="update_your_profile">Update your profile</string>
+    <string name="forget_pass">Forget Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="start">Start</string>
+    <string name="emp_id">Employee ID</string>
+    <string name="cnic">Cnic</string>
+    <string name="logout">Logout</string>
+    <string name="start_trip">Start Trip</string>
+    <string name="end_trip">End Trip</string>
+    <string name="gn_information">General Information</string>
+    <string name="view_history">View History</string>
+    <string name="go_online">Go Online</string>
+    <string name="go_offline">Go Offline</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="no_record_found">No Record Found</string>
+    <string name="emp_id_error">Invalid Employee ID</string>
+    <string name="cnic_error">Invalid Cnic</string>
+    <string name="went_wrong">Something Went Wrong</string>
+    <string name="travel_time">Travel Time</string>
+    <string name="starting_time">Starting Time</string>
+    <string name="already_online">You are online, You Can\'t go back</string>
+    <string name="background_location_permission_message">
+       <b>Allow only while using the app</b> permission has been granted. If you want
+        to get location updates in the background even when not using the app then grant
+        <b>Allow all the time</b> permission
+    </string>
+</resources>

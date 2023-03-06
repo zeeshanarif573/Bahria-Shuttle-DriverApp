@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/driverDetailCardView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10ssp"
+            android:layout_marginTop="@dimen/_5ssp"
+            android:layout_marginEnd="@dimen/_10ssp"
+            android:visibility="visible"
+            app:cardCornerRadius="@dimen/_3ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_10ssp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/icon"
+                        android:layout_width="@dimen/_35ssp"
+                        android:layout_height="@dimen/_35ssp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/dummy_profile_img" />
+
+                    <TextView
+                        android:id="@+id/history_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10ssp"
+                        android:layout_marginEnd="@dimen/_10ssp"
+                        android:layout_toEndOf="@+id/icon"
+                        android:fontFamily="@font/poppins_medium"
+                        android:paddingEnd="@dimen/_5ssp"
+                        android:text="BTK-123456789"
+                        android:textSize="@dimen/_11ssp" />
+
+                    <TextView
+                        android:id="@+id/busNo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/history_id"
+                        android:layout_marginStart="@dimen/_10ssp"
+                        android:layout_marginEnd="@dimen/_10ssp"
+                        android:layout_toEndOf="@+id/icon"
+                        android:fontFamily="@font/poppins_regular"
+                        android:paddingEnd="@dimen/_5ssp"
+                        android:text="Bus No: ABC-123"
+                        android:textSize="@dimen/_10ssp" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/_10ssp"
+                    android:background="@color/grey" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/contactNo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10ssp"
+                        android:layout_weight="1.5"
+                        android:drawablePadding="@dimen/_3ssp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:paddingEnd="@dimen/_5ssp"
+                        android:text="Duration 01:10:00"
+                        android:textSize="@dimen/_10ssp"
+                        tools:ignore="RtlSymmetry" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/_10ssp"
+                        android:background="@color/grey" />
+
+                    <TextView
+                        android:id="@+id/route"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10ssp"
+                        android:layout_marginTop="@dimen/_10ssp"
+                        android:layout_weight="1"
+                        android:drawablePadding="@dimen/_3ssp"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/poppins_regular"
+                        android:maxLines="1"
+                        android:paddingEnd="@dimen/_5ssp"
+                        android:text="Jinnah Avenue to Bahria Golf City"
+                        android:textSize="@dimen/_8ssp"
+                        app:drawableLeftCompat="@drawable/ic_route_svgrepo_com"
+                        tools:ignore="RtlSymmetry" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

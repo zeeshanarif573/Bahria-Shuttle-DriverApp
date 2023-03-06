@@ -1,0 +1,20 @@
+[
+  {
+    "busNo": "ABC-123",
+    "startTime": "03 Feb,2023 10:10 am",
+    "endTime": "03 Feb,2023 16:35 pm",
+    "route": "Jinnah Avenue to Eifel Tower"
+  },
+  {
+    "busNo": "MNM-556",
+    "startTime": "02 Feb,2023 11:10 am",
+    "endTime": "02 Feb,2023 15:35 pm",
+    "route": "Jinnah Avenue to Bahria Golf City"
+  },
+  {
+    "busNo": "BBK-314",
+    "startTime": "01 Feb,2023 09:10 am",
+    "endTime": "01 Feb,2023 17:35 pm",
+    "route": "Jinnah Avenue to Maintenance & Services"
+  }
+]
