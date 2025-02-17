@@ -1,7 +1,7 @@
-# Bahria-Shuttle-DriverApp
+# Bahria-Shuttle-Driver App
 The BTK Shuttle Service is a bus rapid transit line for the residents of Bahria Town Karachi, Residents of Bahria Town Karachi now track the shuttle bus live location through this App.
 
-**Contribution:** 
+**Project Contribution:** 
 - Added login functionality with Firebase Authentication, enabling drivers to log in to the app securely. Ensure proper error handling and validation.
 - Add real-time location tracking for shuttle drivers to allow admin users and passengers to monitor the shuttle’s location.
 - Implement real-time updates where the driver’s location is pushed to Firebase so that admin and passengers can track it on a map. 
